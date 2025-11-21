@@ -421,7 +421,7 @@ footer form {
 
 
 @media (max-width:500px){
-    nav , .first   , .four , .five{
+       .four , .five{
         display: none;
     }
 
@@ -473,14 +473,9 @@ footer form {
     .part3{
         flex-direction: column;
     }
-}
 
 
 
-@media (max-width:500px) {
-
-    .second,
-    .third,
     .four,
     .five,
     footer {
