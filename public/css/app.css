@@ -149,3 +149,92 @@ nav .links a{
     
     
 }
+
+/*section4*/
+
+.four{
+    height: 60vh;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    background-color: #6d48e5;
+}
+
+.first-four{
+    flex-direction: column;
+    display: flex;
+    gap: 30px;
+    
+}
+
+.inside-four{
+    display: flex;
+    column-gap: 150px;
+}
+
+.inside-four div , .first-inside-four , .second-four {
+    color: white;
+}
+
+.second-four p{
+    font-size: 10px;
+    border-bottom: 1px solid black;
+}
+
+/*section 5*/
+
+.five{
+    height: 70vh;
+    background-color:#ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.right-five {
+    width: 30%;
+    height: 50vh;
+    /* background-color: #6D48E5; */
+    flex-direction: column;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.right-five div{
+    display: flex;
+    column-gap: 40px;
+    
+}
+
+.right-five div div {
+    flex-direction: column;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.left-five{
+    width: 35vw;
+    height: 45vh;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0px 1px 48px 4px rgba(0,0,0,0.75);
+}
+
+.to{
+  font-size: 23px;
+}
+
+.bo{
+    font-size: 14px;
+    color: gray;
+}
+.me{
+    position: relative;
+    top: 10px;
+}
