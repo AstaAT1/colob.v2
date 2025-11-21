@@ -95,6 +95,10 @@ nav .links a{
     align-items: center;
     gap: 20px;
 }
+.open,.close{
+    display: none;
+
+}
 
 .top h1{
     color: #3a3a47;
@@ -301,4 +305,57 @@ nav .links a{
 .part3{
   display: flex;
     column-gap: 20px;
+}
+@media (max-width:500px){
+   .second,.third,.four,.five,footer{
+        display: none;
+    }
+    nav{
+         position: relative;
+    justify-content: space-between;
+    padding: 20px; 
+    /* display: flex;
+    flex-direction: column; */
+    }
+    .links{
+            position: absolute;
+    background-color: #364655;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    width: 80%;
+    top: 15vh;
+    left: -100%;
+    padding: 20px 0;
+    border-radius: 20px;
+    transition: 1s;
+    height: auto;
+    row-gap: 10px;
+    }
+    .menuboton .open{
+        display: block;
+    }
+    #menu:checked ~ .links{
+        left: 5vw;
+    }
+    #menu:checked ~ .menuboton > label > .open{
+        display: none;
+    }
+    #menu:checked ~ .menuboton > label > .close{
+display: block;
+    }
+    #menu{
+        display: none;
+    }
+    .first .pic img{
+       width: 24rem;
+    }
+    .blabla h1{
+     width: 26rem;   
+    }
+    .blabla p{
+        width: 26rem;
+    }
+    
 }
