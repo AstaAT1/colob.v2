@@ -92,3 +92,67 @@ nav .links a{
     text-align: center;
 
 }
+
+footer{
+    height: 75vh;
+    background-color: #F6F6FD;
+}
+footer .footerlinks{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    text-align: center;
+    padding-bottom: 20px;
+}
+footer .mainfooter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 93%;
+}
+footer .mainfooter button{
+    padding: .8rem 10rem;
+    color: white;
+    background-color: #6D48E5;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+footer form input {
+   padding: 1rem 12rem .8rem 3rem;
+   border: #6D48E5 solid 1px;
+   border-radius: 5px;
+}
+footer form{
+    padding-bottom: 20px;
+}
+.mainfooter .p2{
+    padding-top: 10px;
+    color: #8E889C;
+    font-size: 13px;
+}
+.mainfooter .p1{
+    padding-left: 10px;
+    color: #8E889C;
+    font-size: 15px;
+}
+.mainfooter h1{
+    width: 45rem;
+    padding-bottom: 45px;
+    font-size: 28px;
+    font-weight: 600;
+}
+.footerlinks .logo{
+    color: #6D48E5;
+    font-weight: 500;
+    font-size: 16px;
+}
+.footerlinks .copyright{
+    color: #8E889C;
+}
+.footerlinks a{
+    text-decoration: none;
+    padding-right: 10px;
+    color: #8E889C;
+}
