@@ -120,7 +120,11 @@ nav .links a{
 }
 .second .bottom div{
     text-align: center;
-
+      padding: 20px;
+    height: 30vh;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
 }
 
 footer{
@@ -186,13 +190,7 @@ footer form{
     padding-right: 10px;
     color: #8E889C;
 }
-    padding: 20px;
-    height: 30vh;
-    flex-direction: column;
-    display: flex;
-    align-items: center;
-
-}
+   
 
 .bottom h2{
     color: #3a3a47;
