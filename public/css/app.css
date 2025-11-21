@@ -302,3 +302,61 @@ nav .links a{
   display: flex;
     column-gap: 20px;
 }
+
+
+@media (max-width:500px){
+    nav , .first   , .four , .five{
+        display: none;
+    }
+
+    .second{
+        flex-direction: column;
+        height: unset;
+        gap: 50px;
+    }
+
+    .second  .bottom{
+        grid-template-columns: unset;
+    }
+
+    .second .top{
+        width: 60%;
+    }
+
+    /* .third{
+        flex-direction: column;
+    } */
+
+    .third{
+        height: unset;
+    }
+
+    .part1{
+        flex-direction: column;
+        display: flex;
+        gap: 10px;
+    }
+
+    .part1 h1{
+        text-align: center;
+    }
+
+    .part2 {
+        flex-direction: column;
+    }
+
+    .block{
+        width: 70vw;
+        order: 2;
+    }
+
+    .right{
+        order: 1;
+    }
+
+    .part3{
+        flex-direction: column;
+    }
+}
+
+
