@@ -420,15 +420,28 @@ footer form {
 }
 
 
+nav label{
+    display: none;
+}
+
 @media (max-width:500px){
        .four , .five{
         display: none;
     }
 
+    nav label{
+        display: block;
+    }
+
     .second{
+        padding-top: 68px;
         flex-direction: column;
         height: unset;
         gap: 50px;
+    }
+
+    .first{
+            height: 50vh;
     }
 
     .second  .bottom{
@@ -439,11 +452,11 @@ footer form {
         width: 60%;
     }
 
-    /* .third{
-        flex-direction: column;
-    } */
+   
 
     .third{
+        padding-bottom: 60px;
+        padding-top: 68px;
         height: unset;
     }
 
