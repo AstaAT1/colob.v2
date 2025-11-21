@@ -5,7 +5,7 @@
 }
 body{
       font-family: 'Poppins', sans-serif;
-      height: 300vh;
+      /* height: 300vh; */
 
 }
 
@@ -241,7 +241,7 @@ nav .links a{
     top: 10px;
 }
 
-}
+
   /* ......third...... */
 .part1{
     display: flex;
@@ -256,6 +256,7 @@ nav .links a{
   text-align: center;
 }
 .third{
+    height: 120vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
