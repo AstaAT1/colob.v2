@@ -365,3 +365,100 @@ footer form{
   display: flex;
     column-gap: 20px;
 }
+@media (max-width:500px){
+    nav{
+        display: none;
+    } 
+    .first{
+        display: none;
+    }
+    .second{
+        display: none;
+    }
+    .third{
+        display: none;
+    }
+    .four{
+     width:135vw;
+     height: 80vh;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    text-align: center;
+    background-color: #6d48e5;
+    }
+    .first-four{
+    flex-direction: column;
+    display: flex;
+    gap: 30px;
+}
+    .first-four .first-inside-four h1{
+        font-size: 45px;
+        width: 99%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .first-four .first-inside-four p{
+        width: 80%;
+        font-size: 20px;
+        display: flex;
+        padding-left:9rem ;
+        padding-top: 30px;
+        text-align: center;
+    }
+    .inside-four{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 50px;
+    font-size: 25px;
+}
+    .second-four p{
+    font-size: 20px;
+    /* border-bottom: 1px solid black; */
+    border: none;
+}
+    .five{
+        width:135vw;
+        height: max-content;
+        background-color:#ffffff;
+        display: flex;
+        flex-direction: column;
+        column-gap: 20px;
+    }
+    .right-five{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .right-five div{
+        width:135vw;
+        height: 100px;
+        width: 500px;
+         display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        text-align: center;
+    }
+    .left-five{
+    width: 120vw;
+    height: 45vh;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0px 1px 48px 4px rgba(0,0,0,0.75);
+}
+    footer{
+        width: 135vw;
+        margin-top: 10rem;
+    }
+    .mainfooter h1{
+        width: 35rem; 
+}
+}
